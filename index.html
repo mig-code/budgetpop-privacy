@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy · BudgetPop</title>
+    <style>
+        :root {
+            --pop-yellow: #FFE66D;
+            --pop-blue: #5B9BD5;
+            --pop-pink: #FF9ECD;
+            --pop-orange: #FFB347;
+            --pop-dark: #101828;
+            --pop-muted: #344054;
+            --pop-soft: #fff7d4;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #222;
+            background: linear-gradient(120deg, var(--pop-yellow), var(--pop-blue));
+            padding: 32px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 24px;
+            box-shadow: 12px 12px 0 rgba(0, 0, 0, 0.4);
+            overflow: hidden;
+            border: 4px solid #000;
+        }
+
+        .header {
+            background: var(--pop-dark);
+            color: white;
+            padding: 56px 40px;
+            text-align: center;
+            border-bottom: 4px solid #000;
+        }
+
+        .header h1 {
+            font-size: 36px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .header p {
+            font-size: 18px;
+            margin-top: 12px;
+            color: var(--pop-yellow);
+        }
+
+        .content {
+            padding: 48px 40px;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .intro .icon {
+            font-size: 52px;
+            margin-bottom: 16px;
+        }
+
+        .intro h2 {
+            font-size: 28px;
+            color: var(--pop-dark);
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        .intro .subtitle {
+            font-size: 18px;
+            color: #555;
+        }
+
+        .summary {
+            margin-bottom: 32px;
+            padding: 22px;
+            border-radius: 18px;
+            border: 3px solid #000;
+            box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.15);
+            background: var(--pop-soft);
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 6px 12px;
+            border-radius: 999px;
+            font-size: 12px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            background: white;
+            color: var(--pop-dark);
+            border: 2px solid #000;
+            margin-bottom: 10px;
+        }
+
+        .summary p {
+            font-size: 16px;
+            color: var(--pop-muted);
+        }
+
+        .summary strong {
+            color: #000;
+        }
+
+        .section {
+            margin-bottom: 32px;
+            padding: 28px;
+            border-radius: 18px;
+            border: 3px solid #000;
+            box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.15);
+        }
+
+        .section:nth-child(odd) {
+            background: var(--pop-yellow);
+        }
+
+        .section:nth-child(even) {
+            background: #F5F5F5;
+        }
+
+        .section h3 {
+            font-size: 22px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--pop-dark);
+        }
+
+        .section .icon {
+            font-size: 26px;
+        }
+
+        .section p {
+            font-size: 16px;
+            color: #333;
+        }
+
+        .section strong {
+            color: #000;
+        }
+
+        ul {
+            margin: 12px 0 0 18px;
+            display: grid;
+            gap: 8px;
+        }
+
+        li {
+            font-size: 16px;
+            color: #333;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 32px;
+            border-top: 4px solid #000;
+            background: var(--pop-pink);
+            color: var(--pop-dark);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .footer .version {
+            font-size: 12px;
+            color: var(--pop-dark);
+            opacity: 0.7;
+            text-transform: none;
+            letter-spacing: 0;
+        }
+
+        a {
+            color: var(--pop-dark);
+            text-decoration: underline;
+            font-weight: 600;
+        }
+
+        @media (max-width: 640px) {
+            body {
+                padding: 16px;
+            }
+
+            .container {
+                border-width: 3px;
+                box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.35);
+            }
+
+            .content {
+                padding: 28px 20px;
+            }
+
+            .section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Privacy Policy</h1>
+            <p>BudgetPop</p>
+        </div>
+
+        <div class="content">
+            <div class="intro">
+                <div class="icon">🔒</div>
+                <h2>Your Privacy Matters</h2>
+                <p class="subtitle">BudgetPop is built to work locally: no accounts, no ads, and your budgets stay on your device.</p>
+            </div>
+
+            <div class="summary">
+                <span class="badge">At a glance</span>
+                <p><strong>No sign-up and no ads.</strong> Your budgets, categories, and settings live on your device.</p>
+                <p>If you purchase premium, Apple and our purchase backend provider <strong>RevenueCat</strong> process App Store receipts to validate the transaction.</p>
+            </div>
+
+            <div class="section">
+                <h3>
+                    <span class="icon">📌</span>
+                    1. How the app works
+                </h3>
+                <p>
+                    BudgetPop stores your budgets, categories, transactions, monthly snapshots, and preferences locally on your device.
+                    Calculations and formatting happen on-device.
+                </p>
+            </div>
+
+            <div class="section">
+                <h3>
+                    <span class="icon">🗂️</span>
+                    2. Data we handle
+                </h3>
+                <p><strong>On your device (never leaves the phone)</strong></p>
+                <ul>
+                    <li>Budgets and categories.</li>
+                    <li>Transactions/expenses you enter.</li>
+                    <li>Monthly snapshots and derived totals.</li>
+                    <li>Preferences: styles, display options, and other settings.</li>
+                </ul>
+
+                <p style="margin-top: 14px;"><strong>In-app purchases</strong></p>
+                <ul>
+                    <li>Purchases are processed by Apple. We do not receive or store payment information or personal data (name, email, payment method).</li>
+                    <li>Apple issues an encrypted receipt we validate to confirm your active purchase or subscription.</li>
+                </ul>
+
+                <p style="margin-top: 14px;"><strong>RevenueCat (receipt management)</strong></p>
+                <p>RevenueCat processes in-app purchases through the App Store and validates receipts. RevenueCat receives:</p>
+                <ul>
+                    <li>An anonymous App User ID generated by the SDK.</li>
+                    <li>App Store receipts and purchased products (subscription identifier, start/expiration dates, status).</li>
+                    <li>Purchase metadata and minimal technical data for fraud prevention and device context (iOS platform, SDK version).</li>
+                </ul>
+                <p style="margin-top: 10px;">
+                    We do not send RevenueCat your name, email, or other personal data.
+                    See the <a href="https://www.revenuecat.com/privacy/" target="_blank" rel="noopener">RevenueCat Privacy Policy</a> for details.
+                </p>
+
+                <p style="margin-top: 14px;"><strong>Apple App Store</strong></p>
+                <p>Purchases are processed through Apple. See <a href="https://www.apple.com/privacy/" target="_blank" rel="noopener">Apple’s Privacy Policy</a> for details.</p>
+            </div>
+
+            <div class="section">
+                <h3>
+                    <span class="icon">🚫</span>
+                    3. What we do NOT do
+                </h3>
+                <ul>
+                    <li>No advertising or third-party trackers.</li>
+                    <li>No selling, renting, or sharing your data with third parties.</li>
+                    <li>No access to your contacts or location.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h3>
+                    <span class="icon">🧹</span>
+                    4. Retention and control
+                </h3>
+                <ul>
+                    <li>Local data: kept until you uninstall the app or use a reset option (if available) in Settings.</li>
+                    <li>Purchases: Apple receipts and RevenueCat anonymous IDs are retained while your subscription is active and according to their policies.</li>
+                    <li>iCloud: if enabled, backups are managed by Apple and can be removed from your iOS settings.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h3>
+                    <span class="icon">🔐</span>
+                    5. Security
+                </h3>
+                <p>
+                    Your local data is protected by iOS security measures. RevenueCat processes receipts over encrypted connections (HTTPS) and is hosted on industry-standard compliant infrastructure.
+                </p>
+            </div>
+
+            <div class="section">
+                <h3>
+                    <span class="icon">🧒</span>
+                    6. Children’s privacy
+                </h3>
+                <p>
+                    The app is intended for adults. We do not knowingly collect information from children under 16.
+                </p>
+            </div>
+
+            <div class="section">
+                <h3>
+                    <span class="icon">⚖️</span>
+                    7. Legal bases (GDPR/UK GDPR)
+                </h3>
+                <ul>
+                    <li><strong>Contract/performance:</strong> to deliver the app features you choose to use (local budgets, categories, and display options).</li>
+                    <li><strong>Legitimate interest:</strong> to prevent fraud and validate purchases via Apple receipts and RevenueCat.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h3>
+                    <span class="icon">🧾</span>
+                    8. Your rights
+                </h3>
+                <p>If you are in the EU/EEA, UK or similar jurisdictions, you can request access, correction, deletion, or portability of your personal data. Because we keep nearly all data on-device and process purchases through Apple/RevenueCat, you can:</p>
+                <ul>
+                    <li>Delete local data by uninstalling the app or using a reset option (if available) in Settings.</li>
+                    <li>Contact Apple for purchase history linked to your Apple ID.</li>
+                    <li>Reach us at <a href="mailto:hola@miguelpg.com">hola@miguelpg.com</a>; we will coordinate with RevenueCat if needed.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h3>
+                    <span class="icon">🌍</span>
+                    9. International transfers
+                </h3>
+                <p>RevenueCat may process purchase receipts in the United States or other countries. They apply safeguards such as Standard Contractual Clauses where required. Apple processes payments under its own terms and privacy policy.</p>
+            </div>
+
+            <div class="section">
+                <h3>
+                    <span class="icon">🔁</span>
+                    10. Changes to this policy
+                </h3>
+                <p>We may update this policy to reflect changes in functionality or payment providers. We will post the latest update date and notify in-app if a change is material.</p>
+            </div>
+
+            <div class="section">
+                <h3>
+                    <span class="icon">✉️</span>
+                    11. Contact
+                </h3>
+                <p>
+                    If you have any questions about privacy, you can contact the developer at:
+                    <a href="mailto:hola@miguelpg.com">hola@miguelpg.com</a> or visit
+                    <a href="https://miguelpg.com" target="_blank" rel="noopener">miguelpg.com</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Last updated: February 9, 2026</p>
+            <p class="version">BudgetPop v1.0</p>
+            <p style="margin-top: 12px; text-transform: none; letter-spacing: 0;">
+                <a href="https://budgetpop.app/" target="_blank" rel="noopener">budgetpop.app</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
